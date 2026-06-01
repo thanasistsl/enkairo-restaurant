@@ -13,6 +13,7 @@ const inputStyle = {
 
 function App() {
   const [showPopup, setShowPopup] = useState(false);
+const [selectedImage, setSelectedImage] = useState(null);
 
   useEffect(() => {
     AOS.init({
@@ -234,7 +235,15 @@ function App() {
     padding: "70px 20px",
     color: "white",
   }}
-></section>
+>
+  <h2>Κριτικές Πελατών</h2>
+
+<p style={{ fontSize: "26px", color: "#ffd166" }}>
+  ⭐ 4.8 / 5
+</p>
+
+<p>Πάνω από 4.178 κριτικές από επισκέπτες</p>
+</section>
 
 <section
   id="booking"
@@ -394,10 +403,7 @@ function App() {
 )}
 </section>
 
-<section
-  data-aos="fade-left"
-  style={{ padding: "50px" }}
->
+<section data-aos="fade-left" style={{ padding: "50px" }}>
   <h2>Η Ατμόσφαιρα του Εν Καιρώ</h2>
 
   <div
@@ -409,38 +415,78 @@ function App() {
     }}
   >
     <img
-      src="https://lh3.googleusercontent.com/p/AF1QipOJ_g-VpVKcSCgW4ujdtIs7MwMIBRXRtaqWiZFh=s1360-w1360-h1020-rw"
+      src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
       alt="Restaurant"
+      onClick={() =>
+        setSelectedImage("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4")
+      }
       style={{
         width: "100%",
         height: "250px",
         objectFit: "cover",
         borderRadius: "15px",
+        cursor: "pointer",
       }}
     />
 
     <img
-      src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAEJVh3-d9Ly_ov3YQuEY_N-RCtBPmIwax7bv7vhEf1F7u7sHnj6UGvTNvCTJVtsGB_-4nxjtO_JycxFrGZjfwybOQ9XBZ8kRq1WQQ5U48CAGq-D0WvoiFpPAp49TH3q6XLoJhJFz_TE8vIY=s1360-w1360-h1020-rw"
+      src="https://images.unsplash.com/photo-1559339352-11d035aa65de"
       alt="Food"
+      onClick={() =>
+        setSelectedImage("https://images.unsplash.com/photo-1559339352-11d035aa65de")
+      }
       style={{
         width: "100%",
         height: "250px",
         objectFit: "cover",
         borderRadius: "15px",
+        cursor: "pointer",
       }}
     />
 
     <img
-      src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAE0eaTUToIzBnsFyUreDCG6dqvFNA9eQlD82uoPhG8QwZ-YNRiOhUhWFsk7ntPDH4REBY-eiSBrjjfygrR2FtQ7KDhQVjCBYW2gaX8cS6YXrmswjY40E03SprXdozRJYJVxyMlDfdOD7kg4=s1360-w1360-h1020-rw"
+      src="https://images.unsplash.com/photo-1552566626-52f8b828add9"
       alt="Interior"
+      onClick={() =>
+        setSelectedImage("https://images.unsplash.com/photo-1552566626-52f8b828add9")
+      }
       style={{
         width: "100%",
         height: "250px",
         objectFit: "cover",
         borderRadius: "15px",
+        cursor: "pointer",
       }}
     />
   </div>
+  {selectedImage && (
+  <div
+    onClick={() => setSelectedImage(null)}
+    style={{
+      position: "fixed",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%",
+      background: "rgba(0,0,0,0.9)",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      zIndex: 99999,
+      cursor: "pointer",
+    }}
+  >
+    <img
+      src={selectedImage}
+      alt="Fullscreen"
+      style={{
+        maxWidth: "90%",
+        maxHeight: "90%",
+        borderRadius: "20px",
+      }}
+    />
+  </div>
+)}
 </section>
 
 <section
