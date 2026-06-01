@@ -231,10 +231,11 @@ function App() {
 
         <div className="menu-container">
           <div className="menu-card">
-            <img
-              
-              style={imgStyle}
-            />
+           <img
+  src="https://images.unsplash.com/photo-1578985545062-69928b1d9587"
+  alt="Κανταΐφι"
+  style={imgStyle}
+/>
             <h3>🍰 Κανταΐφι</h3>
             <p>Παραδοσιακό κανταΐφι με σιρόπι και φιστίκι</p>
             <strong>5.00€</strong>
