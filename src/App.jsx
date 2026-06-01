@@ -249,7 +249,6 @@ const [selectedImage, setSelectedImage] = useState(null);
 
   <div className="menu-card">
   <img
-    src="https://images.unsplash.com/photo-1578985545062-69928b1d9587"
     alt="Κανταΐφι"
     style={{
       width: "100%",
@@ -282,6 +281,7 @@ const [selectedImage, setSelectedImage] = useState(null);
   }}
 >
   <div className="review-card">
+    background: "linear-gradient(135deg, #8b4513, #cc6229)"
     <h3>⭐⭐⭐⭐⭐</h3>
     <p>
       Υπέροχο φαγητό, ζεστός χώρος και εξαιρετική εξυπηρέτηση.
