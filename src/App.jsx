@@ -226,32 +226,15 @@ function App() {
 
 </section>
 
-<section style={{ background: "#cc6229", padding: "50px" }}>
-  <h2>Κριτικές Πελατών</h2>
-  <p style={{ fontSize: "22px", color: "#d4a017", fontWeight: "bold" }}>
-    ⭐ 4.8 / 5 από 4.178+ κριτικές
-  </p>
-
-  <div className="menu-container">
-    <div className="menu-card">
-      <h3>⭐⭐⭐⭐⭐</h3>
-      <p>Υπέροχο φαγητό, ζεστός χώρος και άψογη εξυπηρέτηση.</p>
-      <strong>— Google Review</strong>
-    </div>
-
-    <div className="menu-card">
-      <h3>⭐⭐⭐⭐⭐</h3>
-      <p>Πολύ όμορφη ατμόσφαιρα και εξαιρετικές γεύσεις.</p>
-      <strong>— Google Review</strong>
-    </div>
-
-    <div className="menu-card">
-      <h3>⭐⭐⭐⭐⭐</h3>
-      <p>Από τα καλύτερα μαγαζιά στην Καστοριά. Το προτείνω!</p>
-      <strong>— Google Review</strong>
-    </div>
-  </div>
-</section>
+<section
+  id="reviews"
+  data-aos="zoom-in"
+  style={{
+    background: "linear-gradient(135deg, #8b4513, #cc6229)",
+    padding: "70px 20px",
+    color: "white",
+  }}
+></section>
 
 <section
   id="booking"
