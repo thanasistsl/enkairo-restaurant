@@ -235,20 +235,28 @@ style={{
 
   <h2 style={{ marginTop: "60px" }}>🍰 Γλυκά</h2>
 
-  <div className="menu-container">
+  <div className="menu-card">
+  <img
+    src="..."
+    alt="Κανταΐφι"
+    style={{
+      width: "100%",
+      height: "220px",
+      objectFit: "cover",
+      borderRadius: "15px",
+    }}
+  />
 
-   <img
-  src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAEQZ2bLLF1Q3QlmJGv6f4IzEhCaR1UutTjpqCvkawfYPcxNMHaqp7jxqyARFmP8nyCEWGicJfIvLBvoAXuDFgGlWD9-K3OCSuNNAk3CymAnyhR_cOLcIH14g2IrqhatFhAadGQyCe-MWp2q=s1360-w1360-h1020-rw"
-  alt="Κανταΐφι"
-  style={{
-  width: "100%",
-  height: "220px",
-  objectFit: "cover",
-  borderRadius: "15px",
-}}
-/>
+  <h3 style={{ marginTop: "15px" }}>
+    🍰 Κανταΐφι
+  </h3>
 
-  </div>
+  <p>Παραδοσιακό κανταΐφι με σιρόπι και φιστίκι</p>
+
+  <strong style={{ color: "#cc6229" }}>
+    5€
+  </strong>
+</div>
 
 </section>
 
