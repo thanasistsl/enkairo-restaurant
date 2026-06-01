@@ -414,50 +414,56 @@ const [selectedImage, setSelectedImage] = useState(null);
       marginTop: "30px",
     }}
   >
-    <img
-      src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAE-r8fDDuLqlBMicEIcNasGHOHQxP59UAjqTCHpV6duQEzuyeoaqOMRB5k-cpby2vjQGPq7lj0YF0AfX13mqKlERItM7Mgq-5wDmflJyPmekmY5hV_-PN86wlDNEKQH_Si3dpQ=s1360-w1360-h1020-rw"
-      alt="Restaurant"
-      onClick={() =>
-        setSelectedImage("https://lh3.googleusercontent.com/gps-cs-s/APNQkAE-r8fDDuLqlBMicEIcNasGHOHQxP59UAjqTCHpV6duQEzuyeoaqOMRB5k-cpby2vjQGPq7lj0YF0AfX13mqKlERItM7Mgq-5wDmflJyPmekmY5hV_-PN86wlDNEKQH_Si3dpQ=s1360-w1360-h1020-rw")
-      }
-      style={{
-        width: "100%",
-        height: "250px",
-        objectFit: "cover",
-        borderRadius: "15px",
-        cursor: "pointer",
-      }}
-    />
+ <img
+  src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAE0eaTUToIzBnsFyUreDCG6dqvFNA9eQlD82uoPhG8QwZ-YNRiOhUhWFsk7ntPDH4REBY-eiSBrjjfygrR2FtQ7KDhQVjCBYW2gaX8cS6YXrmswjY40E03SprXdozRJYJVxyMlDfdOD7kg4=s1360-w1360-h1020-rw"
+  alt="Εν Καιρώ"
+  onClick={() =>
+    setSelectedImage(
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE0eaTUToIzBnsFyUreDCG6dqvFNA9eQlD82uoPhG8QwZ-YNRiOhUhWFsk7ntPDH4REBY-eiSBrjjfygrR2FtQ7KDhQVjCBYW2gaX8cS6YXrmswjY40E03SprXdozRJYJVxyMlDfdOD7kg4=s1360-w1360-h1020-rw"
+    )
+  }
+  style={{
+    width: "100%",
+    height: "250px",
+    objectFit: "cover",
+    borderRadius: "15px",
+    cursor: "pointer",
+  }}
+/>
 
-    <img
-      src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAEJVh3-d9Ly_ov3YQuEY_N-RCtBPmIwax7bv7vhEf1F7u7sHnj6UGvTNvCTJVtsGB_-4nxjtO_JycxFrGZjfwybOQ9XBZ8kRq1WQQ5U48CAGq-D0WvoiFpPAp49TH3q6XLoJhJFz_TE8vIY=s1360-w1360-h1020-rw"
-      alt="Food"
-      onClick={() =>
-        setSelectedImage("https://lh3.googleusercontent.com/gps-cs-s/APNQkAEJVh3-d9Ly_ov3YQuEY_N-RCtBPmIwax7bv7vhEf1F7u7sHnj6UGvTNvCTJVtsGB_-4nxjtO_JycxFrGZjfwybOQ9XBZ8kRq1WQQ5U48CAGq-D0WvoiFpPAp49TH3q6XLoJhJFz_TE8vIY=s1360-w1360-h1020-rw")
-      }
-      style={{
-        width: "100%",
-        height: "250px",
-        objectFit: "cover",
-        borderRadius: "15px",
-        cursor: "pointer",
-      }}
-    />
+<img
+  src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAE-r8fDDuLqlBMicEIcNasGHOHQxP59UAjqTCHpV6duQEzuyeoaqOMRB5k-cpby2vjQGPq7lj0YF0AfX13mqKlERItM7Mgq-5wDmflJyPmekmY5hV_-PN86wlDNEKQH_Si3dpQ=s1360-w1360-h1020-rw"
+  alt="Εν Καιρώ"
+  onClick={() =>
+    setSelectedImage(
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE-r8fDDuLqlBMicEIcNasGHOHQxP59UAjqTCHpV6duQEzuyeoaqOMRB5k-cpby2vjQGPq7lj0YF0AfX13mqKlERItM7Mgq-5wDmflJyPmekmY5hV_-PN86wlDNEKQH_Si3dpQ=s1360-w1360-h1020-rw"
+    )
+  }
+  style={{
+    width: "100%",
+    height: "250px",
+    objectFit: "cover",
+    borderRadius: "15px",
+    cursor: "pointer",
+  }}
+/>
 
-    <img
-      src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAE0eaTUToIzBnsFyUreDCG6dqvFNA9eQlD82uoPhG8QwZ-YNRiOhUhWFsk7ntPDH4REBY-eiSBrjjfygrR2FtQ7KDhQVjCBYW2gaX8cS6YXrmswjY40E03SprXdozRJYJVxyMlDfdOD7kg4=s1360-w1360-h1020-rw"
-      alt="Interior"
-      onClick={() =>
-        setSelectedImage("https://lh3.googleusercontent.com/gps-cs-s/APNQkAE0eaTUToIzBnsFyUreDCG6dqvFNA9eQlD82uoPhG8QwZ-YNRiOhUhWFsk7ntPDH4REBY-eiSBrjjfygrR2FtQ7KDhQVjCBYW2gaX8cS6YXrmswjY40E03SprXdozRJYJVxyMlDfdOD7kg4=s1360-w1360-h1020-rw")
-      }
-      style={{
-        width: "100%",
-        height: "250px",
-        objectFit: "cover",
-        borderRadius: "15px",
-        cursor: "pointer",
-      }}
-    />
+<img
+  src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAEJVh3-d9Ly_ov3YQuEY_N-RCtBPmIwax7bv7vhEf1F7u7sHnj6UGvTNvCTJVtsGB_-4nxjtO_JycxFrGZjfwybOQ9XBZ8kRq1WQQ5U48CAGq-D0WvoiFpPAp49TH3q6XLoJhJFz_TE8vIY=s1360-w1360-h1020-rw"
+  alt="Εν Καιρώ"
+  onClick={() =>
+    setSelectedImage(
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEJVh3-d9Ly_ov3YQuEY_N-RCtBPmIwax7bv7vhEf1F7u7sHnj6UGvTNvCTJVtsGB_-4nxjtO_JycxFrGZjfwybOQ9XBZ8kRq1WQQ5U48CAGq-D0WvoiFpPAp49TH3q6XLoJhJFz_TE8vIY=s1360-w1360-h1020-rw"
+    )
+  }
+  style={{
+    width: "100%",
+    height: "250px",
+    objectFit: "cover",
+    borderRadius: "15px",
+    cursor: "pointer",
+  }}
+/>
   </div>
   {selectedImage && (
   <div
