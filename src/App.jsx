@@ -155,18 +155,23 @@ const [selectedImage, setSelectedImage] = useState(null);
 >
   <h2 style={{ marginBottom: "40px" }}>Το Μενού μας</h2>
 
-  <div className="menu-container">
+<div className="menu-card">
+  <img
+    src="https://images.unsplash.com/photo-1626200419199-391ae4be7a41"
+    alt="Τζατζίκι"
+    style={{
+      width: "100%",
+      height: "220px",
+      objectFit: "cover",
+      borderRadius: "15px",
+    }}
+  />
 
-    <img
-  src="https://images.unsplash.com/photo-1626200419199-391ae4be7a41"
-  alt="Τζατζίκι"
-  style={{
-  width: "100%",
-  height: "220px",
-  objectFit: "cover",
-  borderRadius: "15px",
-}}
-/>
+  <h3>🥒 Τζατζίκι</h3>
+  <p>Παραδοσιακό γιαούρτι με αγγούρι και σκόρδο</p>
+  <strong>4€</strong>
+
+
 
     <div className="menu-card">
       <h3>🧀 Μπουγιουρντί</h3>
@@ -220,16 +225,23 @@ const [selectedImage, setSelectedImage] = useState(null);
       <strong>8.50€</strong>
     </div>
 
-    <img
-  src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd"
-  alt="Κοτοσούβλι"
-style={{
-  width: "100%",
-  height: "220px",
-  objectFit: "cover",
-  borderRadius: "15px",
-}}
-/>
+   <div className="menu-card">
+  <img
+    src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd"
+    alt="Κοτοσούβλι"
+    style={{
+      width: "100%",
+      height: "220px",
+      objectFit: "cover",
+      borderRadius: "15px",
+    }}
+  />
+
+  <h3>🍢 Κοτοσούβλι</h3>
+  <p>Ζουμερό κοτόπουλο στη σούβλα</p>
+  <strong>10€</strong>
+</div>
+
 
   </div>
 
@@ -237,7 +249,7 @@ style={{
 
   <div className="menu-card">
   <img
-    src="..."
+    src="https://images.unsplash.com/photo-1578985545062-69928b1d9587"
     alt="Κανταΐφι"
     style={{
       width: "100%",
@@ -260,23 +272,41 @@ style={{
 
 </section>
 
-<section
-  id="reviews"
-  data-aos="zoom-in"
+<div
   style={{
-    background: "linear-gradient(135deg, #8b4513, #cc6229)",
-    padding: "70px 20px",
-    color: "white",
+    display: "flex",
+    justifyContent: "center",
+    flexWrap: "wrap",
+    gap: "25px",
+    marginTop: "40px",
   }}
 >
-  <h2>Κριτικές Πελατών</h2>
+  <div className="review-card">
+    <h3>⭐⭐⭐⭐⭐</h3>
+    <p>
+      Υπέροχο φαγητό, ζεστός χώρος και εξαιρετική εξυπηρέτηση.
+      Θα ξανάρθουμε σίγουρα!
+    </p>
+    <strong>— Google Review</strong>
+  </div>
 
-<p style={{ fontSize: "26px", color: "#ffd166" }}>
-  ⭐ 4.8 / 5
-</p>
+  <div className="review-card">
+    <h3>⭐⭐⭐⭐⭐</h3>
+    <p>
+      Πολύ όμορφη ατμόσφαιρα και εξαιρετικές γεύσεις.
+      Από τα καλύτερα μαγαζιά της Καστοριάς.
+    </p>
+    <strong>— Google Review</strong>
+  </div>
 
-<p>Πάνω από 4.178 κριτικές από επισκέπτες</p>
-</section>
+  <div className="review-card">
+    <h3>⭐⭐⭐⭐⭐</h3>
+    <p>
+      Άψογη ποιότητα, μεγάλες μερίδες και φιλικό προσωπικό.
+    </p>
+    <strong>— Google Review</strong>
+  </div>
+</div>
 
 <section
   id="booking"
