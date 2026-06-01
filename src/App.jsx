@@ -161,12 +161,11 @@ const [selectedImage, setSelectedImage] = useState(null);
   src="https://images.unsplash.com/photo-1626200419199-391ae4be7a41"
   alt="Τζατζίκι"
   style={{
-    width: "100%",
-    height: "180px",
-    objectFit: "cover",
-    borderRadius: "12px",
-    marginBottom: "15px",
-  }}
+  width: "100%",
+  height: "220px",
+  objectFit: "cover",
+  borderRadius: "15px",
+}}
 />
 
     <div className="menu-card">
@@ -204,12 +203,11 @@ const [selectedImage, setSelectedImage] = useState(null);
     src="https://images.unsplash.com/photo-1544025162-d76694265947"
     alt="Χοιρινή Μπριζόλα"
     style={{
-      width: "100%",
-      height: "180px",
-      objectFit: "cover",
-      borderRadius: "12px",
-      marginBottom: "15px",
-    }}
+  width: "100%",
+  height: "220px",
+  objectFit: "cover",
+  borderRadius: "15px",
+}}
   />
   <h3>🥩 Χοιρινή Μπριζόλα</h3>
   <p>Σχάρας με πατάτες και συνοδευτικά</p>
@@ -225,13 +223,12 @@ const [selectedImage, setSelectedImage] = useState(null);
     <img
   src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd"
   alt="Κοτοσούβλι"
-  style={{
-    width: "100%",
-    height: "180px",
-    objectFit: "cover",
-    borderRadius: "12px",
-    marginBottom: "15px",
-  }}
+style={{
+  width: "100%",
+  height: "220px",
+  objectFit: "cover",
+  borderRadius: "15px",
+}}
 />
 
   </div>
@@ -244,12 +241,11 @@ const [selectedImage, setSelectedImage] = useState(null);
   src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAEQZ2bLLF1Q3QlmJGv6f4IzEhCaR1UutTjpqCvkawfYPcxNMHaqp7jxqyARFmP8nyCEWGicJfIvLBvoAXuDFgGlWD9-K3OCSuNNAk3CymAnyhR_cOLcIH14g2IrqhatFhAadGQyCe-MWp2q=s1360-w1360-h1020-rw"
   alt="Κανταΐφι"
   style={{
-    width: "100%",
-    height: "180px",
-    objectFit: "cover",
-    borderRadius: "12px",
-    marginBottom: "15px",
-  }}
+  width: "100%",
+  height: "220px",
+  objectFit: "cover",
+  borderRadius: "15px",
+}}
 />
 
   </div>
