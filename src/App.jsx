@@ -210,10 +210,15 @@ function App() {
           </div>
 
           <div className="menu-card">
-            <h3>🍔 Μπιφτέκι Σχάρας</h3>
-            <p>Χειροποίητο μπιφτέκι στη σχάρα</p>
-            <strong>8.50€</strong>
-          </div>
+  <img
+    src="https://images.unsplash.com/photo-1550547660-d9450f859349"
+    alt="Μπιφτέκι Σχάρας"
+    style={imgStyle}
+  />
+  <h3>🍔 Μπιφτέκι Σχάρας</h3>
+  <p>Χειροποίητο μπιφτέκι στη σχάρα</p>
+  <strong>8.50€</strong>
+</div>
 
           <div className="menu-card">
             <img
