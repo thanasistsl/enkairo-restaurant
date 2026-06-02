@@ -290,6 +290,16 @@ function App() {
   </div>
 </section>
 
+
+<section id="call-now" className="fade-section">
+  <h2>Κάντε την κράτησή σας σήμερα</h2>
+  <p>Ελάτε να απολαύσετε αυθεντικές γεύσεις σε ζεστό και φιλικό χώρο.</p>
+
+  <a href="tel:+302467000000" className="hero-call">
+    📞 Καλέστε μας
+  </a>
+</section>
+
       <section
         id="reviews"
         data-aos="zoom-in"
