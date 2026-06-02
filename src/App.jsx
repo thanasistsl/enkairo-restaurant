@@ -200,7 +200,7 @@ function App() {
         <div className="menu-container">
           <div className="menu-card">
             <img
-              src="https://images.unsplash.com/photo-1544025162-d76694265947"
+              src="/images/xoirini_mbriola.jpg"
               alt="Χοιρινή Μπριζόλα"
               style={imgStyle}
             />
@@ -222,7 +222,7 @@ function App() {
 
           <div className="menu-card">
             <img
-              src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd"
+              src="/images/kotosouvli.jpg"
               alt="Κοτοσούβλι"
               style={imgStyle}
             />
