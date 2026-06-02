@@ -211,10 +211,10 @@ function App() {
 
           <div className="menu-card">
   <img
-  src="https://picsum.photos/800/600"
-  alt="Μπιφτέκι Σχάρας"
-  style={imgStyle}
-/>
+    src="/images/bifteki.jpg"
+    alt="Μπιφτέκι Σχάρας"
+    style={imgStyle}
+  />
   <h3>🍔 Μπιφτέκι Σχάρας</h3>
   <p>Χειροποίητο μπιφτέκι στη σχάρα</p>
   <strong>8.50€</strong>
