@@ -180,17 +180,9 @@ function App() {
     style={imgStyle}
   />
 
- <div className="menu-card">
-  <img
-    src="/images/bougiourdi.jpg"
-    alt="Μπουγιουρντί"
-    style={imgStyle}
-  />
-
   <h3>🧀 Μπουγιουρντί</h3>
   <p>Φέτα φούρνου με πιπεριά και μυρωδικά</p>
   <strong>4.50€</strong>
-</div>
 
          <div className="menu-card">
   <img
@@ -207,21 +199,7 @@ function App() {
 
         <h2 style={{ marginTop: "60px" }}>🥗 Σαλάτες</h2>
 
-       <div className="menu-card">
-  <img
-    src="/images/salata.jpg"
-    alt="Σαλάτα Εν Καιρώ"
-    style={imgStyle}
-  />
-
-  <h3>🥗 Σαλάτα Εν Καιρώ</h3>
-
-  <p>
-    Φρέσκα λαχανικά, φρούτα εποχής και ιδιαίτερο dressing
-  </p>
-
-  <strong>Σπεσιαλιτέ</strong>
-</div>
+       
 
         <h2 style={{ marginTop: "60px" }}>🍖 Κυρίως Πιάτα</h2>
 
