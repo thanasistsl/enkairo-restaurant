@@ -179,6 +179,13 @@ function App() {
     style={imgStyle}
   />
 
+ <div className="menu-card">
+  <img
+    src="/images/bougiourdi.jpg"
+    alt="Μπουγιουρντί"
+    style={imgStyle}
+  />
+
   <h3>🧀 Μπουγιουρντί</h3>
   <p>Φέτα φούρνου με πιπεριά και μυρωδικά</p>
   <strong>4.50€</strong>
