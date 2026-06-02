@@ -171,6 +171,8 @@ function App() {
             <p>Παραδοσιακό γιαούρτι με αγγούρι και σκόρδο</p>
             <strong>4.00€</strong>
           </div>
+            </div>
+          
 
           <div className="menu-card">
   <img
