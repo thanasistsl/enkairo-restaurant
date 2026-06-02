@@ -311,6 +311,33 @@ function App() {
   </div>
 </section>
 
+
+<section id="features" className="fade-section">
+  <h2>✨ Παροχές</h2>
+
+  <div className="menu-container">
+    <div className="menu-card">
+      <h3>🅿️ Parking</h3>
+      <p>Εύκολη πρόσβαση και δυνατότητα στάθμευσης κοντά στο κατάστημα.</p>
+    </div>
+
+    <div className="menu-card">
+      <h3>📶 Free WiFi</h3>
+      <p>Δωρεάν WiFi για όλους τους επισκέπτες μας.</p>
+    </div>
+
+    <div className="menu-card">
+      <h3>❄️ Κλιματισμός</h3>
+      <p>Άνετος και δροσερός χώρος όλες τις εποχές.</p>
+    </div>
+
+    <div className="menu-card">
+      <h3>👨‍👩‍👧‍👦 Φιλικό για οικογένειες</h3>
+      <p>Ιδανικός χώρος για παρέες, οικογένειες και παιδιά.</p>
+    </div>
+  </div>
+</section>
+
 <section id="call-now" className="fade-section">
   <h2>Κάντε την κράτησή σας σήμερα</h2>
   <p>Ελάτε να απολαύσετε αυθεντικές γεύσεις σε ζεστό και φιλικό χώρο.</p>
