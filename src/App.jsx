@@ -160,18 +160,17 @@ function App() {
 
         <h2 style={{ marginTop: "20px" }}>🍽️ Ορεκτικά</h2>
 
-        <div className="menu-container">
-          <div className="menu-card">
-            <img
-              src="https://images.unsplash.com/photo-1626200419199-391ae4be7a41"
-              alt="Τζατζίκι"
-              style={imgStyle}
-            />
-            <h3>🥒 Τζατζίκι</h3>
-            <p>Παραδοσιακό γιαούρτι με αγγούρι και σκόρδο</p>
-            <strong>4.00€</strong>
-          </div>
-            </div>
+        <div className="menu-card">
+  <img
+    src="/images/tzatziki.jpg"
+    alt="Τζατζίκι"
+    style={imgStyle}
+  />
+
+  <h3>🥒 Τζατζίκι</h3>
+  <p>Παραδοσιακό γιαούρτι με αγγούρι και σκόρδο</p>
+  <strong>4.00€</strong>
+</div>
           
 
           <div className="menu-card">
@@ -208,8 +207,7 @@ function App() {
 
         <h2 style={{ marginTop: "60px" }}>🥗 Σαλάτες</h2>
 
-        <div className="menu-container">
-         <div className="menu-card">
+       <div className="menu-card">
   <img
     src="/images/salata.jpg"
     alt="Σαλάτα Εν Καιρώ"
@@ -217,10 +215,13 @@ function App() {
   />
 
   <h3>🥗 Σαλάτα Εν Καιρώ</h3>
-  <p>Φρέσκα λαχανικά, φρούτα εποχής και ιδιαίτερο dressing</p>
+
+  <p>
+    Φρέσκα λαχανικά, φρούτα εποχής και ιδιαίτερο dressing
+  </p>
+
   <strong>Σπεσιαλιτέ</strong>
 </div>
-        </div>
 
         <h2 style={{ marginTop: "60px" }}>🍖 Κυρίως Πιάτα</h2>
 
