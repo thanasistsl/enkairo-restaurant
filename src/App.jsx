@@ -173,26 +173,44 @@ function App() {
           </div>
 
           <div className="menu-card">
-            <h3>🧀 Μπουγιουρντί</h3>
-            <p>Φέτα φούρνου με πιπεριά και μυρωδικά</p>
-            <strong>4.50€</strong>
-          </div>
+  <img
+    src="/images/bougiourdi.jpg"
+    alt="Μπουγιουρντί"
+    style={imgStyle}
+  />
 
-          <div className="menu-card">
-            <h3>🥔 Πατατοκροκέτες</h3>
-            <p>Τραγανές πατατοκροκέτες με dip</p>
-            <strong>4.50€</strong>
-          </div>
+  <h3>🧀 Μπουγιουρντί</h3>
+  <p>Φέτα φούρνου με πιπεριά και μυρωδικά</p>
+  <strong>4.50€</strong>
+</div>
+
+         <div className="menu-card">
+  <img
+    src="/images/patatokroketes.jpg"
+    alt="Πατατοκροκέτες"
+    style={imgStyle}
+  />
+
+  <h3>🥔 Πατατοκροκέτες</h3>
+  <p>Τραγανές πατατοκροκέτες με dip</p>
+  <strong>4.50€</strong>
+</div>
         </div>
 
         <h2 style={{ marginTop: "60px" }}>🥗 Σαλάτες</h2>
 
         <div className="menu-container">
-          <div className="menu-card">
-            <h3>🥗 Σαλάτα Εν Καιρώ</h3>
-            <p>Φρέσκα λαχανικά, φρούτα εποχής και ιδιαίτερο dressing</p>
-            <strong>Special</strong>
-          </div>
+         <div className="menu-card">
+  <img
+    src="/images/salata.jpg"
+    alt="Σαλάτα Εν Καιρώ"
+    style={imgStyle}
+  />
+
+  <h3>🥗 Σαλάτα Εν Καιρώ</h3>
+  <p>Φρέσκα λαχανικά, φρούτα εποχής και ιδιαίτερο dressing</p>
+  <strong>Σπεσιαλιτέ</strong>
+</div>
         </div>
 
         <h2 style={{ marginTop: "60px" }}>🍖 Κυρίως Πιάτα</h2>
@@ -211,13 +229,14 @@ function App() {
 
           <div className="menu-card">
   <img
-    src="/images/kotosouvli.jpg"
-    alt="Κοτοσούβλι"
+    src="/images/bifteki.jpg"
+    alt="Μπιφτέκι Σχάρας"
     style={imgStyle}
   />
-  <h3>🍢 Κοτοσούβλι</h3>
-  <p>Ζουμερό κοτόπουλο στη σούβλα</p>
-  <strong>10.00€</strong>
+
+  <h3>🍔 Μπιφτέκι Σχάρας</h3>
+  <p>Χειροποίητο μπιφτέκι στη σχάρα</p>
+  <strong>8.50€</strong>
 </div>
 
           <div className="menu-card">
