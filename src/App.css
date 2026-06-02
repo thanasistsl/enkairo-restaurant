@@ -419,3 +419,13 @@ section {
 #hours h2 {
   margin-bottom: 40px;
 }
+
+#features {
+  text-align: center;
+  padding: 70px 20px;
+  background: #fffaf3;
+}
+
+#features h2 {
+  margin-bottom: 40px;
+}
