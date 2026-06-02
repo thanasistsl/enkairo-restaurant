@@ -199,15 +199,15 @@ function App() {
 
         <div className="menu-container">
           <div className="menu-card">
-            <img
-              src="/images/brizola.jpg"
-              alt="Χοιρινή Μπριζόλα"
-              style={imgStyle}
-            />
-            <h3>🥩 Χοιρινή Μπριζόλα</h3>
-            <p>Σχάρας με πατάτες και συνοδευτικά</p>
-            <strong>9.50€</strong>
-          </div>
+  <img
+    src="/images/brizola.jpg"
+    alt="Χοιρινή Μπριζόλα"
+    style={imgStyle}
+  />
+  <h3>🥩 Χοιρινή Μπριζόλα</h3>
+  <p>Σχάρας με πατάτες και συνοδευτικά</p>
+  <strong>9.50€</strong>
+</div>
 
           <div className="menu-card">
   <img
