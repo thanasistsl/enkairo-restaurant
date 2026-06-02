@@ -200,7 +200,7 @@ function App() {
         <div className="menu-container">
           <div className="menu-card">
             <img
-              src="/images/xoirini_mbriola.jpg"
+              src="/images/brizola.jpg"
               alt="Χοιρινή Μπριζόλα"
               style={imgStyle}
             />
