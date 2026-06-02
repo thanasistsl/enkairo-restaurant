@@ -269,6 +269,27 @@ function App() {
   </div>
 </section>
 
+<section id="why-us" className="fade-section">
+  <h2>Γιατί να μας επιλέξετε</h2>
+
+  <div className="menu-container">
+    <div className="menu-card">
+      <h3>🔥 Φρέσκα Υλικά</h3>
+      <p>Χρησιμοποιούμε καθημερινά φρέσκα και ποιοτικά υλικά.</p>
+    </div>
+
+    <div className="menu-card">
+      <h3>🍖 Παραδοσιακές Γεύσεις</h3>
+      <p>Σπιτικές συνταγές και αυθεντική ελληνική κουζίνα.</p>
+    </div>
+
+    <div className="menu-card">
+      <h3>📍 Ιδανική Τοποθεσία</h3>
+      <p>Βρισκόμαστε σε εύκολα προσβάσιμο σημείο στην Καστοριά.</p>
+    </div>
+  </div>
+</section>
+
       <section
         id="reviews"
         data-aos="zoom-in"
