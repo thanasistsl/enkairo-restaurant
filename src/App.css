@@ -409,3 +409,13 @@ section {
   font-weight: bold;
   display: inline-block;
 }
+
+#hours {
+  text-align: center;
+  padding: 70px 20px;
+  background: linear-gradient(180deg, #fffaf3, #f3eadf);
+}
+
+#hours h2 {
+  margin-bottom: 40px;
+}

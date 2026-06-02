@@ -290,6 +290,26 @@ function App() {
   </div>
 </section>
 
+<section id="hours" className="fade-section">
+  <h2>🕒 Ωράριο Λειτουργίας</h2>
+
+  <div className="menu-container">
+    <div className="menu-card">
+      <h3>Δευτέρα - Πέμπτη</h3>
+      <p>12:00 - 00:00</p>
+    </div>
+
+    <div className="menu-card">
+      <h3>Παρασκευή - Σάββατο</h3>
+      <p>12:00 - 01:00</p>
+    </div>
+
+    <div className="menu-card">
+      <h3>Κυριακή</h3>
+      <p>12:00 - 00:00</p>
+    </div>
+  </div>
+</section>
 
 <section id="call-now" className="fade-section">
   <h2>Κάντε την κράτησή σας σήμερα</h2>
