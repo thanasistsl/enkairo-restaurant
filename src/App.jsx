@@ -149,129 +149,125 @@ function App() {
       </section>
 
       <section
-        id="menu"
-        data-aos="fade-up"
-        style={{
-          background: "#f5f5f5",
-          padding: "50px",
-        }}
-      >
-        <h2 style={{ marginBottom: "40px" }}>Το Μενού μας</h2>
+  id="menu"
+  data-aos="fade-up"
+  style={{
+    background: "#f5f5f5",
+    padding: "50px",
+  }}
+>
+  <h2 style={{ marginBottom: "40px" }}>Το Μενού μας</h2>
 
-        <h2 style={{ marginTop: "20px" }}>🍽️ Ορεκτικά</h2>
+  {/* ΟΡΕΚΤΙΚΑ */}
+  <h2 style={{ marginTop: "20px" }}>🍽️ Ορεκτικά</h2>
 
-        <div className="menu-card">
-  <img
-    src="/images/tzatziki.jpg"
-    alt="Τζατζίκι"
-    style={imgStyle}
-  />
+  <div className="menu-container">
+    <div className="menu-card">
+      <img
+        src="/images/tzatziki.jpg"
+        alt="Τζατζίκι"
+        style={imgStyle}
+      />
+      <h3>🥒 Τζατζίκι</h3>
+      <p>Παραδοσιακό γιαούρτι με αγγούρι και σκόρδο</p>
+      <strong>4.00€</strong>
+    </div>
 
-  <h3>🥒 Τζατζίκι</h3>
-  <p>Παραδοσιακό γιαούρτι με αγγούρι και σκόρδο</p>
-  <strong>4.00€</strong>
-</div>
-          
+    <div className="menu-card">
+      <img
+        src="/images/bougiourdi.jpg"
+        alt="Μπουγιουρντί"
+        style={imgStyle}
+      />
+      <h3>🧀 Μπουγιουρντί</h3>
+      <p>Φέτα φούρνου με πιπεριά και μυρωδικά</p>
+      <strong>4.50€</strong>
+    </div>
 
-  <div className="menu-card">
-  <img
-    src="/images/bougiourdi.jpg"
-    alt="Μπουγιουρντί"
-    style={imgStyle}
-  />
-
-  <h3>🧀 Μπουγιουρντί</h3>
-  <p>Φέτα φούρνου με πιπεριά και μυρωδικά</p>
-  <strong>4.50€</strong>
-</div>
-
-<div className="menu-card">
-
-         <div className="menu-card">
-  <img
-    src="/images/patatokroketes.jpg"
-    alt="Πατατοκροκέτες"
-    style={imgStyle}
-  />
-
-  <h3>🥔 Πατατοκροκέτες</h3>
-  <p>Τραγανές πατατοκροκέτε ς με dip</p>
-  <strong>4.50€</strong>
-</div>
-        </div>
-
-       <div className="menu-container">
-  <div className="menu-card">
-    <img
-      src="/images/salata.jpg"
-      alt="Σαλάτα Εν Καιρώ"
-      style={imgStyle}
-    />
-
-    <h3>🥗 Σαλάτα Εν Καιρώ</h3>
-    <p>
-      Φρέσκα λαχανικά, φρούτα εποχής και ιδιαίτερο dressing
-    </p>
-
-    <strong>Σπεσιαλιτέ</strong>
+    <div className="menu-card">
+      <img
+        src="/images/patatokroketes.jpg"
+        alt="Πατατοκροκέτες"
+        style={imgStyle}
+      />
+      <h3>🥔 Πατατοκροκέτες</h3>
+      <p>Τραγανές πατατοκροκέτες με dip</p>
+      <strong>4.50€</strong>
+    </div>
   </div>
-</div>
 
-       
+  {/* ΣΑΛΑΤΕΣ */}
+  <h2 style={{ marginTop: "60px" }}>🥗 Σαλάτες</h2>
 
-        <h2 style={{ marginTop: "60px" }}>🍖 Κυρίως Πιάτα</h2>
+  <div className="menu-container">
+    <div className="menu-card">
+      <img
+        src="/images/salata.jpg"
+        alt="Σαλάτα Εν Καιρώ"
+        style={imgStyle}
+      />
+      <h3>🥗 Σαλάτα Εν Καιρώ</h3>
+      <p>
+        Φρέσκα λαχανικά, φρούτα εποχής και ιδιαίτερο dressing
+      </p>
+      <strong>Σπεσιαλιτέ</strong>
+    </div>
+  </div>
 
-        <div className="menu-container">
-          <div className="menu-card">
-  <img
-    src="/images/brizola.jpg"
-    alt="Χοιρινή Μπριζόλα"
-    style={imgStyle}
-  />
-  <h3>🥩 Χοιρινή Μπριζόλα</h3>
-  <p>Σχάρας με πατάτες και συνοδευτικά</p>
-  <strong>9.50€</strong>
-</div>
+  {/* ΚΥΡΙΩΣ ΠΙΑΤΑ */}
+  <h2 style={{ marginTop: "60px" }}>🍖 Κυρίως Πιάτα</h2>
 
-          <div className="menu-card">
-  <img
-    src="/images/bifteki.jpg"
-    alt="Μπιφτέκι Σχάρας"
-    style={imgStyle}
-  />
+  <div className="menu-container">
+    <div className="menu-card">
+      <img
+        src="/images/brizola.jpg"
+        alt="Χοιρινή Μπριζόλα"
+        style={imgStyle}
+      />
+      <h3>🥩 Χοιρινή Μπριζόλα</h3>
+      <p>Σχάρας με πατάτες και συνοδευτικά</p>
+      <strong>9.50€</strong>
+    </div>
 
-  <h3>🍔 Μπιφτέκι Σχάρας</h3>
-  <p>Χειροποίητο μπιφτέκι στη σχάρα</p>
-  <strong>8.50€</strong>
-</div>
+    <div className="menu-card">
+      <img
+        src="/images/bifteki.jpg"
+        alt="Μπιφτέκι Σχάρας"
+        style={imgStyle}
+      />
+      <h3>🍔 Μπιφτέκι Σχάρας</h3>
+      <p>Χειροποίητο μπιφτέκι στη σχάρα</p>
+      <strong>8.50€</strong>
+    </div>
 
-          <div className="menu-card">
-            <img
-              src="/images/kotosouvli.jpg"
-              alt="Κοτοσούβλι"
-              style={imgStyle}
-            />
-            <h3>🍢 Κοτοσούβλι</h3>
-            <p>Ζουμερό κοτόπουλο στη σούβλα</p>
-            <strong>10.00€</strong>
-          </div>
-        </div>
+    <div className="menu-card">
+      <img
+        src="/images/kotosouvli.jpg"
+        alt="Κοτοσούβλι"
+        style={imgStyle}
+      />
+      <h3>🍢 Κοτοσούβλι</h3>
+      <p>Ζουμερό κοτόπουλο στη σούβλα</p>
+      <strong>10.00€</strong>
+    </div>
+  </div>
 
-        <h2 style={{ marginTop: "60px" }}>🍰 Γλυκά</h2>
+  {/* ΓΛΥΚΑ */}
+  <h2 style={{ marginTop: "60px" }}>🍰 Γλυκά</h2>
 
-        <div className="menu-container">
-          <div className="menu-card">
-           <img
-  src="https://images.unsplash.com/photo-1578985545062-69928b1d9587"
-  alt="Κανταΐφι"
-  style={imgStyle}
-/>
-            <h3>🍰 Κανταΐφι</h3>
-            <p>Παραδοσιακό κανταΐφι με σιρόπι και φιστίκι</p>
-            <strong>5.00€</strong>
-          </div>
-        </div>
-      </section>
+  <div className="menu-container">
+    <div className="menu-card">
+      <img
+        src="https://images.unsplash.com/photo-1578985545062-69928b1d9587"
+        alt="Κανταΐφι"
+        style={imgStyle}
+      />
+      <h3>🍰 Κανταΐφι</h3>
+      <p>Παραδοσιακό κανταΐφι με σιρόπι και φιστίκι</p>
+      <strong>5.00€</strong>
+    </div>
+  </div>
+</section>
 
       <section
         id="reviews"
